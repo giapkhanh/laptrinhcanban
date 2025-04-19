@@ -1,3 +1,5 @@
+//Chua hoan thanh
+
 #include <stdio.h>
 int main () {
     int n;
