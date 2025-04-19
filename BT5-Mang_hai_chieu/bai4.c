@@ -1,4 +1,3 @@
-//Chua hoan thanh
 #include <stdio.h>
 int main () {
     int n;
@@ -9,10 +8,14 @@ int main () {
     {
         arr[i] = i+1;
     }
+
     for (int i = 0; i < n*n; i++)
     {
-        printf("%d ", arr[i]);
+        if (i % n == 0) {
+            printf("")
+        }
     }
+    
     
     return 0;
     
